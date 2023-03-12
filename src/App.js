@@ -1,10 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Home from "./pages/Home/Home";
-import Contact from "./pages/Contact/Contact";
-
+//pages
+import { Home, Contact } from "./pages";
+//components
+import { Header, Footer } from "./components";
 function App() {
   return (
     <div>
@@ -13,7 +12,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Contact" element={<Contact />} />
-          {/* <Link to="/">Home</Link> */}
         </Routes>
         <Footer />
       </BrowserRouter>
