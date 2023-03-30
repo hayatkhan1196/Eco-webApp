@@ -8,8 +8,7 @@
 
 header {
     width: 100%;
-    // background-color: var(--dark-blue);
-    background-color: darkblue;
+    background-color: var(--dark-blue);
     color: #fff;
 
     .header {
@@ -148,7 +147,7 @@ header {
                 position: absolute;
                 top: 0;
                 right: 0;
-                width: 118%;
+                width: 149%;
                 height: 100vh;
                 background-color: rgba(0, 0, 0, 0.5);
                 transform: translateX();
@@ -263,7 +262,7 @@ header {
 
         .show-nav {
             transform: translateX(0);
-            background-color: darkblue;
+            background-color: (--dark-blue);
             width: 40%;
 
         }
