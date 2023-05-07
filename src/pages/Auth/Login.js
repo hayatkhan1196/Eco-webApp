@@ -28,7 +28,7 @@ const Login = () => {
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         // Signed in
-        const user = userCredential.user;
+        // const user = userCredential.user;
         setIsLoading(false);
         toast.success("Login seccessfull ...");
         navigate("/");
@@ -48,7 +48,7 @@ const Login = () => {
     signInWithPopup(auth, provider)
       .then((result) => {
         // The signed-in user info.
-        const user = result.user;
+        // const user = result.user;
         toast.success("Login Successful");
         navigate("/");
       })

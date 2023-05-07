@@ -3,7 +3,6 @@ import styles from "./Foooter.module.scss";
 
 const date = new Date();
 const year = date.getFullYear();
-console.log("🚀 ~ file: Footer.js:6 ~ year:", year);
 
 const Footer = () => {
   return <div className={styles.footer}>@copy {year} All Rights Reserved</div>;
